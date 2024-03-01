@@ -24,6 +24,13 @@ function ctrl(req, res) {
 
 http.createServer(ctrl).listen(PORT);
 
+// Http status codes starts with
+// 1xx - Informational
+// 2xx - Success
+// 3xx - Redirected
+// 4xx - User Side Error
+// 5xx - Server Side Error
+
 // if (req.url === "/books") {
 //   res.write(JSON.stringify(data));
 //   res.end();
